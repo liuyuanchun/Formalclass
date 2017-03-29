@@ -11,8 +11,8 @@ public class HomeWorkByScore {
 			System.out.println("输入的是违法的成绩!");
 			return;
 		}
-		score = score / 10;
-		switch (score) {
+		int grade = score / 10;
+		switch (grade) {
 		case 10:
 		case 9:
 			System.out.println("成绩优秀");
