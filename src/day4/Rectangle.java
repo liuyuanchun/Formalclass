@@ -1,10 +1,22 @@
 package day4;
 
 import java.text.DecimalFormat;
-
+/**
+ * 定义一个矩形类  求周长和面积
+ * @author Administrator
+ *
+ */
 public class Rectangle {
 	private int length;
 	private int width;
+	public Rectangle(){
+		
+	}
+	public Rectangle(int length,int width){
+		this.length = length;
+		this.width = width;
+		
+	}
 	DecimalFormat df = new DecimalFormat("0.00");
 	public int getLength(){
 		return length;
