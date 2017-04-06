@@ -1,0 +1,15 @@
+package day8.homework;
+
+public class SmokingBikingTeacher extends Teacher implements ISmoking,IBiking{
+
+	@Override
+	public void bike() {
+	    System.out.println(name + "ª·∆Ô≥µ£°");
+	}
+
+	@Override
+	public void smoke() {
+		System.out.println(name + "ª·Œ¸—Ã!");
+	}
+
+}
